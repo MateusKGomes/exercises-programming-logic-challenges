@@ -17,8 +17,16 @@ Caso o contrário:
 */
 
 function findGuest(names, guest){
-  // Desenvolva seu código nessa função
-  return // Retorne o resultado aqui
+  // const checkList = names.filter((el) => el.includes(guest));
+  for (let index = 0; index < names.length; index++) {
+    if (names[index] === guest) {
+      return "O nome está na lista."
+    }
+    
+  }
+    return "O nome não está na lista.";
 }
+const invetedNames = ['mateus', 'Carol'];
+console.log(findGuest(invetedNames, name)); 
 
 module.exports = findGuest;

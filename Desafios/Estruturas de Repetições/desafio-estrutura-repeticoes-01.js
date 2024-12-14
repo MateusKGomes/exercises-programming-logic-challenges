@@ -15,8 +15,12 @@ Saída:
 
 */
 
-function encode(string){
-  // Desenvolva seu código nessa função
+function encode(string) {
+  const mult =  string.split('').map((el, index) => index * 3);
+  return mult
+  // console.log(mult);
 }
+
+console.log(encode('trybe'));
 
 module.exports = encode;

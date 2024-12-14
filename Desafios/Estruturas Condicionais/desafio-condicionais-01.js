@@ -22,7 +22,21 @@ Utilize Switch/Case para resolver este problema.
 */
 
 function optionsMenu(number){
-  // Desenvolva seu código nessa função
+switch (number) {
+  case 1:
+  'Trybe Lanche Feliz'
+  case 2: 
+  return 'McTrybe'
+  case 3:
+    return 'TrybeWooper'
+  case 4:
+    return 'X-Trybe'
+  case 5:
+    return 'Triplo Trybe com JS'
+  default:
+    return 'Não temos esta opção ainda'
 }
+}
+console.log(optionsMenu(6));
 
 module.exports = optionsMenu;

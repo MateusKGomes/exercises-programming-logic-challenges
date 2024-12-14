@@ -56,3 +56,4 @@ const highestRatingFilter = () => {
 
   return bandAlbum;
 }
+

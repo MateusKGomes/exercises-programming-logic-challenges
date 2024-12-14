@@ -11,7 +11,8 @@ Escreva um algoritmo que recebe 3 valores, calcule e retorne o valor da média n
 */
 
 function average(number1, number2, number3){
-  // Desenvolva seu código nessa função
+   return number1 + number2 + number3 / [number1, number2, number3].length
 }
+console.log(average(1, 2, 3));
 
 module.exports = average;
